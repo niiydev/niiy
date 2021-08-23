@@ -1,3 +1,3 @@
 # niiy
 
-[Bulgarian](/docs/introduction/README_BG)
+[български](blob/main/docs/introduction/README_bg.md)
