@@ -6,3 +6,23 @@
 
 * [Features](#features)
 * [Components](#components)
+
+
+##Components
+
+###Modes
+| Component  | GUI | CLI |
+|------------|-----|-----|
+| deployer   |     |     |
+| manager    |     |     |
+| dispatcher |     |     |
+| connector  |     |     |
+| monitor    |     |     |
+| builder    |     |     |
+
+###Platforms
+
+
+
+
+
