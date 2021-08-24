@@ -40,15 +40,34 @@
       <td>:white_check_mark:</td>
             <td>:white_check_mark:</td>
     </tr>
+        <tr>
+          <td>dispatcher</td>
+          <td>:white_check_mark:</td>
+                <td>:white_check_mark:</td>
+        </tr>
+            <tr>
+              <td>connector</td>
+              <td>:white_check_mark:</td>
+                    <td>:white_check_mark:</td>
+            </tr>
+                <tr>
+                  <td>monitor</td>
+                  <td>:white_check_mark:</td>
+                        <td>:white_check_mark:</td>
+                </tr>
+                    <tr>
+                      <td>builder</td>
+                      <td>:white_check_mark:</td>
+                            <td>:white_check_mark:</td>
+                    </tr>
+                              <tr>
+                                          <td>creator</td>
+                                          <td>:white_check_mark:</td>
+                                                <td>:white_check_mark:</td>
+                                        </tr>
 </table>
 
-
-|     |:white_check_mark:|:white_check_mark:|
-| dispatcher |:white_check_mark:|:white_check_mark:|
-| connector  |:white_check_mark:|:white_check_mark:|
-| monitor    |:white_check_mark:|:white_check_mark:|
-| builder    |:white_check_mark:|:white_check_mark:|
-| creator    |:white_check_mark:|:white_check_mark:|
+ 
 
  
 ### Platforms
