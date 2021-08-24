@@ -32,7 +32,6 @@
     <td colspan="2">Mode</td>
   </tr>
   <tr>
-    <td>CLI</td>
     <td>GUI</td>
     <td>CLI</td>
   </tr>
