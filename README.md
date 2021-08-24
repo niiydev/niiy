@@ -15,6 +15,16 @@
 
 ## Components
 
+| Component  | Description |
+|------------|----|
+| deployer   ||
+| manager    ||
+| dispatcher ||
+| connector  ||
+| monitor    ||
+| builder    ||
+| creator    ||
+
 ### Modes
 | Component  | GUI| CLI |
 |------------|----|-----|
@@ -24,6 +34,7 @@
 | connector  |:white_check_mark:|:white_check_mark:|
 | monitor    |:white_check_mark:|:white_check_mark:|
 | builder    |:white_check_mark:|:white_check_mark:|
+| creator    |:white_check_mark:|:white_check_mark:|
 
 ### Platforms
 | Component  | Platform |
@@ -34,9 +45,11 @@
 | connector  |Linux, macOS, Windows|
 | monitor    |Linux, macOS, Windows, Web, Android, iOS|
 | builder    |Linux, macOS, Windows|
+| creator    |Linux, macOS, Windows|
 
 ## Guides
 
 Building from source
+
 Deployment
 
