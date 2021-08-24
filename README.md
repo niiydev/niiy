@@ -44,13 +44,13 @@
       <td>manager</td>
       <td>:white_check_mark:</td>
             <td>:white_check_mark:</td>
-                        <td>Linux, macOS, Windows</td>
+                        <td>Linux, macOS, Windows, Web</td>
     </tr>
         <tr>
           <td>dispatcher</td>
           <td>:white_check_mark:</td>
                 <td>:white_check_mark:</td>
-                           <td>Linux, macOS, Windows, Web</td>
+                           <td>Linux, macOS, Windows</td>
         </tr>
             <tr>
               <td>connector</td>
