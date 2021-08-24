@@ -28,7 +28,7 @@
 ### Modes
 <table>
   <tr>
-    <td>Component</td>
+    <td rowspan="2">Component</td>
     <td colspan="2">Mode</td>
   </tr>
   <tr>
