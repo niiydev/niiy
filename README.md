@@ -11,14 +11,14 @@
 ##Components
 
 ###Modes
-| Component  | GUI | CLI |
-|------------|-----|-----|
-| deployer   |     |     |
-| manager    |     |     |
-| dispatcher |     |     |
-| connector  |     |     |
-| monitor    |     |     |
-| builder    |     |     |
+| Component  | GUI                    | CLI |
+|------------|-----------------------|-----|
+| deployer   |  :white_check_mark:   |     |
+| manager    |                       |     |
+| dispatcher |                       |     |
+| connector  |                       |     |
+| monitor    |                       |     |
+| builder    |                       |     |
 
 ###Platforms
 
