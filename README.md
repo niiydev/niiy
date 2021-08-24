@@ -5,12 +5,14 @@
 ---
 
 * [Features](#features)
+* [Architecture](#architecture)
 * [Components](#components)
 
+## Architecture
 
-##Components
+## Components
 
-###Modes
+### Modes
 | Component  | GUI| CLI |
 |------------|----|-----|
 | deployer   |:white_check_mark:|:white_check_mark:|
@@ -20,7 +22,7 @@
 | monitor    |:white_check_mark:|:white_check_mark:|
 | builder    |:white_check_mark:|:white_check_mark:|
 
-###Platforms
+### Platforms
 | Component  | Platform |
 |------------|----|
 | deployer   |Linux, macOS, Windows|
