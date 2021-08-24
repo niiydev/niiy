@@ -11,9 +11,9 @@
 ##Components
 
 ###Modes
-| Component  | GUI                    | CLI |
-|------------|-----------------------|-----|
-| deployer   |  :white_check_mark:   |     |
+| Component  | GUI| CLI |
+|------------|----|-----|
+| deployer   |:white_check_mark:|     |
 | manager    |                       |     |
 | dispatcher |                       |     |
 | connector  |                       |     |
