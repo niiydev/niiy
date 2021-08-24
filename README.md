@@ -13,15 +13,22 @@
 ###Modes
 | Component  | GUI| CLI |
 |------------|----|-----|
-| deployer   |:white_check_mark:|     |
-| manager    |                       |     |
-| dispatcher |                       |     |
-| connector  |                       |     |
-| monitor    |                       |     |
-| builder    |                       |     |
+| deployer   |:white_check_mark:|:white_check_mark:|
+| manager    |:white_check_mark:|:white_check_mark:|
+| dispatcher |:white_check_mark:|:white_check_mark:|
+| connector  |:white_check_mark:|:white_check_mark:|
+| monitor    |:white_check_mark:|:white_check_mark:|
+| builder    |:white_check_mark:|:white_check_mark:|
 
 ###Platforms
-
+| Component  | Platform |
+|------------|----|
+| deployer   |Linux, macOS, Windows|
+| manager    |Linux, macOS, Windows, Web|
+| dispatcher |Linux, macOS, Windows|
+| connector  |Linux, macOS, Windows|
+| monitor    |Linux, macOS, Windows, Web, Android, iOS|
+| builder    |Linux, macOS, Windows|
 
 
 
