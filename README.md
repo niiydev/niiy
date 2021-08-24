@@ -30,6 +30,7 @@
   <tr>
     <td rowspan="2">Component</td>
     <td colspan="2">Mode</td>
+    <td rowspan="2">Platforms</td>
   </tr>
   <tr>
     <td>GUI</td>
@@ -39,48 +40,40 @@
       <td>manager</td>
       <td>:white_check_mark:</td>
             <td>:white_check_mark:</td>
+                        <td>Linux, macOS, Windows</td>
     </tr>
         <tr>
           <td>dispatcher</td>
           <td>:white_check_mark:</td>
                 <td>:white_check_mark:</td>
+                           <td>Linux, macOS, Windows, Web</td>
         </tr>
             <tr>
               <td>connector</td>
               <td>:white_check_mark:</td>
                     <td>:white_check_mark:</td>
+                                           <td>Linux, macOS, Windows</td>
             </tr>
                 <tr>
                   <td>monitor</td>
                   <td>:white_check_mark:</td>
                         <td>:white_check_mark:</td>
+                            <td>Linux, macOS, Windows, Web, Android, iOS</td>
                 </tr>
                     <tr>
                       <td>builder</td>
                       <td>:white_check_mark:</td>
                             <td>:white_check_mark:</td>
+                                <td>Linux, macOS, Windows</td>
                     </tr>
                               <tr>
                                           <td>creator</td>
                                           <td>:white_check_mark:</td>
                                                 <td>:white_check_mark:</td>
+                                                    <td>Linux, macOS, Windows</td>
                                         </tr>
 </table>
-
  
-
- 
-### Platforms
-| Component  | Platform |
-|------------|----|
-| deployer   |Linux, macOS, Windows|
-| manager    |Linux, macOS, Windows, Web|
-| dispatcher |Linux, macOS, Windows|
-| connector  |Linux, macOS, Windows|
-| monitor    |Linux, macOS, Windows, Web, Android, iOS|
-| builder    |Linux, macOS, Windows|
-| creator    |Linux, macOS, Windows|
-
 ## Guides
 
 Building from source
