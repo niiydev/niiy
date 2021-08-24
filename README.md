@@ -9,6 +9,7 @@
 * [Features](#features)
 * [Architecture](#architecture)
 * [Components](#components)
+* [Guides](#guides)
 
 ## Architecture
 
@@ -34,6 +35,8 @@
 | monitor    |Linux, macOS, Windows, Web, Android, iOS|
 | builder    |Linux, macOS, Windows|
 
+## Guides
 
-
+Building from source
+Deployment
 
