@@ -26,16 +26,20 @@
 | creator    ||
 
 ### Modes
-| Component  | GUI| CLI |
-|------------|----|-----|
-| deployer   |:white_check_mark:|:white_check_mark:|
-| manager    |:white_check_mark:|:white_check_mark:|
-| dispatcher |:white_check_mark:|:white_check_mark:|
-| connector  |:white_check_mark:|:white_check_mark:|
-| monitor    |:white_check_mark:|:white_check_mark:|
-| builder    |:white_check_mark:|:white_check_mark:|
-| creator    |:white_check_mark:|:white_check_mark:|
+<table>
+  <tr>
+    <td>Component</td>
+    <td colspan="2">Mode</td>
+  </tr>
+  <tr>
+    <td>CLI</td>
+    <td>GUI</td>
+    <td>CLI</td>
+  </tr>
+</table>
 
+
+ 
 ### Platforms
 | Component  | Platform |
 |------------|----|
