@@ -11,6 +11,8 @@
 * [Components](#components)
 * [Guides](#guides)
 
+## Features
+
 ## Architecture
 
 ## Components
