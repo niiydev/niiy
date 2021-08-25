@@ -1,6 +1,5 @@
 # niiy
----
-
+ 
 **Софтуер за планиране на автоматизирани задачи в предприятието**
 
 [English](../../README.md) ▪ [Русский](docs/introduction/README_ru.md) ▪ [日本語](docs/introduction/README_jp.md) ▪ [한국어](docs/introduction/README_ko.md)
