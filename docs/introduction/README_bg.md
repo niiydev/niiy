@@ -56,12 +56,12 @@ Builder е помощен инструмент за изграждане на в
 
 Creator е помощен инструмент, който улеснява създаването на нови типове задачи.
 
-### Modes
+### Режими
 <table>
   <tr>
-    <td rowspan="2">Component</td>
-    <td colspan="2">Mode</td>
-    <td rowspan="2">Platforms</td>
+    <td rowspan="2">Компонент</td>
+    <td colspan="2">Режим</td>
+    <td rowspan="2">Платформи</td>
   </tr>
   <tr>
     <td>GUI</td>
@@ -105,7 +105,7 @@ Creator е помощен инструмент, който улеснява съ
                                         </tr>
 </table>
  
-## Guides
+## Ръководства
 
 Building from source
 
