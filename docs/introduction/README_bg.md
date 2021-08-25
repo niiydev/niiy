@@ -24,7 +24,7 @@
 
 ### Основни компоненти
 
-#### manager
+#### :small_blue_diamond: manager
 
 Manager е административно приложение, което се грижи за управлението на целия софтуер. 
 
@@ -36,23 +36,23 @@ Manager е административно приложение, което се 
 
 Детайлна документация за този компонент може да намерите тук.
 
-#### dispatcher
+#### :small_blue_diamond: dispatcher
 
-#### connector
+#### :small_blue_diamond: connector
 
-#### monitor
+#### :small_blue_diamond: monitor
 
 ### Помощни компоненти
 
-#### deployer
+#### :small_blue_diamond: deployer
 
 Deployer е инструментът, който се използва за инсталиране/внедряване на платформата.
 
-#### builder
+#### :small_blue_diamond: builder
 
 Builder е помощен инструмент за изграждане на всички компоненти от изходния код.
 
-#### creator
+#### :small_blue_diamond: creator
 
 Creator е помощен инструмент, който улеснява създаването на нови типове задачи.
 
