@@ -22,21 +22,25 @@
 
 ## Components
 
-### deployer
+### Основни компоненти
+
+#### manager
+
+#### dispatcher
+
+#### connector
+
+#### monitor
+
+## Помощни компоненти
+
+#### deployer
 
 Deployer е инструментът, който се използва за инсталиране/внедряване на платформата.
 
-### manager
+#### builder
 
-### dispatcher
-
-### connector
-
-### monitor
-
-### builder
-
-### creator
+#### creator
 
 ### Modes
 <table>
