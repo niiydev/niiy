@@ -1,34 +1,54 @@
 package main
 
 import (
-  _ "embed"
-  "github.com/wailsapp/wails"
+	"embed"
+	"log"
+
+	"github.com/wailsapp/wails/v2"
+	"github.com/wailsapp/wails/v2/pkg/logger"
+	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/wailsapp/wails/v2/pkg/options/windows"
 )
 
-func basic() string {
-  return "World!"
-}
-
-//go:embed frontend/build/static/js/main.js
-var js string
-
-//go:embed frontend/build/static/css/main.css
-var css string
+//go:embed frontend/src
+var assets embed.FS
 
 func main() {
+	// Create an instance of the app structure
+	app := NewApp()
 
-  app := wails.CreateApp(&wails.AppConfig{
-    Width:  1024,
-    Height: 768,
-    Resizable: true,
-    Title:  "niiy-manager",
-    JS:     js,
+	// Create application with options
+	err := wails.Run(&options.App{
+		Title:             "niiy-manager",
+		Width:             720,
+		Height:            570,
+		MinWidth:          720,
+		MinHeight:         570,
+		MaxWidth:          1280,
+		MaxHeight:         740,
+		DisableResize:     false,
+		Fullscreen:        false,
+		Frameless:         false,
+		StartHidden:       false,
+		HideWindowOnClose: false,
+		RGBA:              &options.RGBA{R: 255, G: 255, B: 255, A: 255},
+		Assets:            assets,
+		LogLevel:          logger.DEBUG,
+		OnStartup:         app.startup,
+		OnDomReady:        app.domReady,
+		OnShutdown:        app.shutdown,
+		Bind: []interface{}{
+			app,
+		},
+		// Windows platform specific options
+		Windows: &windows.Options{
+			WebviewIsTransparent: false,
+			WindowIsTranslucent:  false,
+			DisableWindowIcon:    false,
+		},
+	})
 
-    CSS:    css,
-    Colour: "#131313",
-  })
-  app.Bind(basic)
-  _ = app.Run()
-
-
+	if err != nil {
+		log.Fatal(err)
+	}
 }

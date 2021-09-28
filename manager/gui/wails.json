@@ -1,0 +1,9 @@
+{
+  "name": "niiy-manager",
+  "outputfilename": "gui",
+  "assetdir": "frontend/src",
+  "author": {
+    "name": "Torlakee",
+    "email": "80884129+torlakee@users.noreply.github.com"
+  }
+}
