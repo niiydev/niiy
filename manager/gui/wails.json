@@ -1,6 +1,6 @@
 {
   "name": "niiy-manager",
-  "outputfilename": "gui",
+  "outputfilename": "niiy-manager",
   "assetdir": "frontend/src",
   "author": {
     "name": "Torlakee",

@@ -2,7 +2,7 @@ module changeme
 
 go 1.17
 
-require github.com/wailsapp/wails/v2 v2.0.0-beta.1
+require github.com/wailsapp/wails/v2 v2.0.0-beta.13
 
 require (
 	github.com/andybalholm/brotli v1.0.2 // indirect
@@ -14,12 +14,13 @@ require (
 	github.com/gofiber/websocket/v2 v2.0.8 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
-	github.com/jchv/go-winloader v0.0.0-20200815041850-dec1ee9a7fd5 // indirect
+	github.com/jchv/go-winloader v0.0.0-20210711035445-715c2860da7e // indirect
 	github.com/klauspost/compress v1.12.2 // indirect
 	github.com/leaanthony/debme v1.2.1 // indirect
 	github.com/leaanthony/go-ansi-parser v1.0.1 // indirect
 	github.com/leaanthony/go-common-file-dialog v1.0.3 // indirect
-	github.com/leaanthony/go-webview2 v0.0.0-20210914103035-f00aa774a934 // indirect
+	github.com/leaanthony/go-webview2 v0.0.0-20211007095229-b1759d2e4ec7 // indirect
+	github.com/leaanthony/gosod v1.0.3 // indirect
 	github.com/leaanthony/slicer v1.5.0 // indirect
 	github.com/leaanthony/typescriptify-golang-structs v0.1.7 // indirect
 	github.com/leaanthony/webview2runtime v1.1.0 // indirect
@@ -32,7 +33,7 @@ require (
 	github.com/valyala/fasthttp v1.28.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
-	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
+	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
 )
 
-// replace github.com/wailsapp/wails/v2 v2.0.0-beta.1 => C:\Lang\Go\workspace\pkg\mod\github.com\wailsapp\wails\v2@v2.0.0-beta.1
+// replace github.com/wailsapp/wails/v2 v2.0.0-beta.13 => C:\Lang\Go\workspace\pkg\mod\github.com\wailsapp\wails\v2@v2.0.0-beta.13
