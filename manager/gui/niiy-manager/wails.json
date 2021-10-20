@@ -1,0 +1,20 @@
+{
+  "name": "niiy-manager",
+  "assetdir": "frontend/dist",
+  "frontend:build": "npx vite build",
+  "frontend:install": "npm install",
+  "frontend:dev": "npx vite",
+  "wailsjsdir": "./frontend",
+  "version": "2",
+  "Path": "",
+  "BuildDir": "",
+  "outputfilename": "niiy-manager.exe",
+  "OutputType": "",
+  "Platform": "",
+  "Author": {
+    "name": "Torlakee",
+    "email": "80884129+torlakee@users.noreply.github.com"
+  },
+  "debounceMS": 100,
+  "devserverurl": "http://localhost:34115"
+}
